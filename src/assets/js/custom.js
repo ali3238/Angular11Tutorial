@@ -244,7 +244,7 @@ JS Index:
         var $t = $(this),
           n = $t.find(".counter-text").attr("data-stop"),
           r = parseInt($t.find(".counter-text").attr("data-speed"), 10);
-        if (!$t.hasClass("counted")) {
+          if (!$t.hasClass("counted")) {
           $t.addClass("counted");
           $({
             countNum: $t.find(".counter-text").text()
